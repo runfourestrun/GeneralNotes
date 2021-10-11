@@ -1,0 +1,5 @@
+Helpful APOC config properties
+
+dbms.security.procedures.whitelist=apoc.*
+dbms.security.procedures.unrestricted=apoc.*,bloom.*
+dbms.security.procedures.allowlist=apoc.*,gds.*,bloom.*
